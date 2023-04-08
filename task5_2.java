@@ -49,7 +49,7 @@ public class task5_2 {
             "Иван Ежов"            
         };
 
-        String fname, lname;
+        String fname;
         String[] nameParts;
         HashMap<String, Integer> map = new HashMap<>();
 
