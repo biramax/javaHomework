@@ -34,7 +34,7 @@ public class task1_4 {
         // Переводим в массив чаров
         char[] all_chars = all.toCharArray();
         // Узнаём число знаков "?"
-        long num_x = all.chars().filter(ch -> ch == '?').count(); 
+        int num_x = (int) all.chars().filter(ch -> ch == '?').count(); 
 
         // Число комбинаций значений во всех "?" (например, при трёх "?" будет 999 комбинаций)
         int num_variants = 10;
